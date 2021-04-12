@@ -9,4 +9,13 @@ console.log ("Il punteggio del giocatore è " + secondoLancio);
 
 if (primoLancio > secondoLancio) {
     console.log("Giocatore vince!!");
+} 
+else if (primoLancio < secondoLancio) {
+    console.log("Computer vince!!");
+} 
+else if (primoLancio == secondoLancio) {
+    console.log("Nessun vincitore!!");
 }
+    
+
+
